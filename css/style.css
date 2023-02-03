@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    color: #34F5C5;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.generator__input--textarea {
+    display: flex;
+    resize: none;
+    border-color: #34F5C5;
+    background-color: black;
+    width: 500px;
+    height: 40px;
+    white-space: normal;
+    text-align: center;
+    padding-top: 10px;
+    position: relative;
+}
+
+body {
+    background-color: #1e1e1e;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.generator__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 400px;
+    background-color: rgba(2, 2, 2, 0.11);
+    box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.22);
+    color: #21D082;
+    gap: 30px;
+}
+
+.generator__title {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.generator__input {
+    font-weight: 400;
+}
+
+.generator__button--btn {
+    width: 150px;
+    height: 40px;
+    background-color: #21d082;
+    color: #043a21;
+    box-shadow: 0 0 2px 2px rgba(255, 255, 255, 0.22);
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.generator__button--btn:hover {
+    background-color: #34F5C5;
+    color: #1e1e1e;
+    transition: 0.2s ease;
+}
+
+.generator__input {
+    position: relative;
+}
+
+.input__copy {
+    background-color: #34F5C5;
+    height: 27px;
+    width: 27px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    background-image: url("../svg/copy-icon.svg");
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 0.2s ease;
+}
+
+.input__copy:hover {
+    background-color: #21D082;
+    transition: 0.2s ease;
+}
